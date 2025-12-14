@@ -11,27 +11,30 @@ function App() {
     hero: {
       name: "THIRAN V",
       title: "BIO-MEDICAL ENGINEER",
-      description: "Passionate about creating elegant solutions to complex problems. Specializing in modern web technologies and user-centered design.",
+      description:"A passionate engineering student who enjoys solving problems, learning continuously, and building practical solutions with real-world impact.",
+      /*"Passionate about creating elegant solutions to complex problems. Specializing in modern web technologies and user-centered design.",*/
       cvUrl: "/FINAL2025-NOV.pdf"
     },
     about: {
       bio : "I'm a dedicated developer passionate about creating exceptional digital experiences. I enjoy tackling challenging problems, learning new technologies, and continuously improving my skills. Outside of coding, I love exploring tech trends, contributing to open-source projects, and sharing knowledge with the developer community.",
-     /* imageUrl: "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=800"*/
+    /* imageUrl: "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=800"*/
     },
-   projects: [
+    projects: [
       {
         id: 1,
         title: "Home automation system",
         description: "Built a smart home solution with ESP32-CAM for remote appliance control, live video streaming, motion detection, and keypad-based access. Focused on enhancing security and convenience through real-time automation.",
         technologies: ["Arduino IDE", "Embedded C"],
-        imageUrl: "https://imgs.search.brave.com/EBBLWdFLPo_0jSzoluhGB14-ovL6Abos5zFoin8Sy9Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9zbWFy/dC1ob21lLWF1dG9t/YXRpb24tY29udHJv/bC1zeXN0ZW0taW5u/b3ZhdGlvbi10ZWNo/bm9sb2d5LWludGVy/bmV0LW5ldHdvcmst/Y29uY2VwdC1zbWFy/dC1ob21lLWF1dG9t/YXRpb24tY29udHJv/bC1zeXN0ZW0tOTky/MTE2NzguanBn"
+        imageUrl: "https://imgs.search.brave.com/EBBLWdFLPo_0jSzoluhGB14-ovL6Abos5zFoin8Sy9Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9zbWFy/dC1ob21lLWF1dG9t/YXRpb24tY29udHJv/bC1zeXN0ZW0taW5u/b3ZhdGlvbi10ZWNo/bm9sb2d5LWludGVy/bmV0LW5ldHdvcmst/Y29uY2VwdC1zbWFy/dC1ob21lLWF1dG9t/YXRpb24tY29udHJv/bC1zeXN0ZW0tOTky/MTE2NzguanBn",
+        githubUrl:"https://github.com/thiran18/Home-Automation-System-Using-IOT-with-ESP32-CAM",
       },
       {
         id: 2,
         title: "Fetal Monitoring System",
         description: "Engineered a non-invasive fetal movement tracker using ESP32 and MPU6050. Enables pregnant women to monitor fetal activity at home, reducing clinical visits and enhancing prenatal care accessibility.",
-        technologies: ["Arduino IDE", "Embedded C","Flutter"],
-        imageUrl: "https://imgs.search.brave.com/kxpUHXDgbArASkkh4CdkpFQNExiNo2--XeA5wWEDbo0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9oZWFs/dGh5LmthaXNlcnBl/cm1hbmVudGUub3Jn/L2NvbnRlbnQvZGFt/L2twL2NodWIvaW1h/Z2VzL21hdGVybml0/eS9GZXRhSUhlYXJ0/TW9uaXRvcmluZ09u/UHJlZ25hbnRXb21h/bmxuVGhlSG9zcGl0/YWxfbC1kdC5qcGc"
+        technologies: ["Arduino IDE", "Embedded C"],
+        imageUrl: "https://imgs.search.brave.com/kxpUHXDgbArASkkh4CdkpFQNExiNo2--XeA5wWEDbo0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9oZWFs/dGh5LmthaXNlcnBl/cm1hbmVudGUub3Jn/L2NvbnRlbnQvZGFt/L2twL2NodWIvaW1h/Z2VzL21hdGVybml0/eS9GZXRhSUhlYXJ0/TW9uaXRvcmluZ09u/UHJlZ25hbnRXb21h/bmxuVGhlSG9zcGl0/YWxfbC1kdC5qcGc",
+        githubUrl:"https://github.com/thiran18/Fetal_Monitoring_System",
       },
       {
         id: 3,
@@ -120,7 +123,7 @@ function App() {
       />
       <About
         bio={portfolioData.about.bio}
-        imageUrl={portfolioData.about.imageUrl}
+        /*imageUrl={portfolioData.about.imageUrl}*/
       />
       <Projects projects={portfolioData.projects} />
       <Skills skillCategories={portfolioData.skills} />
