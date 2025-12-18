@@ -42,6 +42,14 @@ function App() {
         description: "Interactive weather application with location-based forecasts and beautiful data visualizations.",
         technologies: ["React", "API Integration", "Chart.js", "CSS"],
         imageUrl: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800"
+      },
+      {
+        id: 4,
+        title: "Customer Behavior Analysis",
+        description: "Performed data cleaning, exploratory data analysis, visualization, and built predictive models to extract actionable insights.",
+        technologies: ["Python", "sql","Power BI"],
+        imageUrl: "https://img.freepik.com/free-photo/business-data-analysis_53876-95296.jpg?semt=ais_hybrid&w=740&q=80",
+        githubUrl: "https://github.com/thiran18/Customer-behavior-analysis-DA"
       }
     ],/*
   projects: [
@@ -92,7 +100,7 @@ function App() {
   },
   {
     category: "Tools & Platforms",
-    skills: ["GitHub", "Visual Studio Code", "Figma", "MySQL Workbench"]
+    skills: ["GitHub", "Visual Studio Code", "Figma", "MySQL Workbench","Power BI","Jupyter Notebook"]
   },
  /* {
     category: "Domain Expertise",
