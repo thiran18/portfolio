@@ -16,41 +16,43 @@ function App() {
       cvUrl: "/FINAL2025-NOV.pdf"
     },
     about: {
-      bio : "I'm a dedicated developer passionate about creating exceptional digital experiences. I enjoy tackling challenging problems, learning new technologies, and continuously improving my skills. Outside of coding, I love exploring tech trends, contributing to open-source projects, and sharing knowledge with the developer community.",
-    /* imageUrl: "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=800"*/
+      //bio : "I'm a dedicated developer passionate about creating exceptional digital experiences. I enjoy tackling challenging problems, learning new technologies, and continuously improving my skills. Outside of coding, I love exploring tech trends, contributing to open-source projects, and sharing knowledge with the developer community.",
+      bio: "I am a Biomedical Engineering student with a strong interest in software development, data analysis, and embedded systems. I enjoy converting real-world problems into practical technical solutions using programming, data handling, and system design. I have hands-on experience working on projects involving customer behavior analysis, healthcare monitoring, IoT-based automation.",
+      /* imageUrl: "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=800"*/
     },
     projects: [
       {
         id: 1,
-        title: "Home automation system",
-        description: "Built a smart home solution with ESP32-CAM for remote appliance control, live video streaming, motion detection, and keypad-based access. Focused on enhancing security and convenience through real-time automation.",
-        technologies: ["Arduino IDE", "Embedded C"],
-        imageUrl: "https://imgs.search.brave.com/EBBLWdFLPo_0jSzoluhGB14-ovL6Abos5zFoin8Sy9Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9zbWFy/dC1ob21lLWF1dG9t/YXRpb24tY29udHJv/bC1zeXN0ZW0taW5u/b3ZhdGlvbi10ZWNo/bm9sb2d5LWludGVy/bmV0LW5ldHdvcmst/Y29uY2VwdC1zbWFy/dC1ob21lLWF1dG9t/YXRpb24tY29udHJv/bC1zeXN0ZW0tOTky/MTE2NzguanBn",
-        githubUrl:"https://github.com/thiran18/Home-Automation-System-Using-IOT-with-ESP32-CAM",
+        title: "Customer Behavior Analysis",
+        description: "Performed data cleaning, customer behavior analysis, SQL-based insights, and built interactive Power BI dashboards to support data-driven decision making.",
+        technologies: ["SQL", "Power BI", "Data Analysis"],
+        imageUrl: "https://img.freepik.com/free-photo/business-data-analysis_53876-95296.jpg?semt=ais_hybrid&w=740&q=80",
+        githubUrl: "https://github.com/thiran18/Customer-behavior-analysis-DA"
       },
       {
         id: 2,
         title: "Fetal Monitoring System",
-        description: "Engineered a non-invasive fetal movement tracker using ESP32 and MPU6050. Enables pregnant women to monitor fetal activity at home, reducing clinical visits and enhancing prenatal care accessibility.",
+        description: "Engineered a non-invasive fetal movement monitoring system using ESP32 and MPU6050, enabling real-time activity tracking and reducing the need for frequent clinical visits.",
         technologies: ["Arduino IDE", "Embedded C"],
         imageUrl: "https://imgs.search.brave.com/kxpUHXDgbArASkkh4CdkpFQNExiNo2--XeA5wWEDbo0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9oZWFs/dGh5LmthaXNlcnBl/cm1hbmVudGUub3Jn/L2NvbnRlbnQvZGFt/L2twL2NodWIvaW1h/Z2VzL21hdGVybml0/eS9GZXRhSUhlYXJ0/TW9uaXRvcmluZ09u/UHJlZ25hbnRXb21h/bmxuVGhlSG9zcGl0/YWxfbC1kdC5qcGc",
         githubUrl:"https://github.com/thiran18/Fetal_Monitoring_System",
       },
       {
         id: 3,
+        title: "Home automation system",
+        description: "Built an IoT-based home automation system using ESP32-CAM with remote appliance control, real-time video monitoring, motion detection, and secure keypad-based access.",
+        technologies: ["Arduino IDE", "Embedded C"],
+        imageUrl: "https://imgs.search.brave.com/EBBLWdFLPo_0jSzoluhGB14-ovL6Abos5zFoin8Sy9Q/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9zbWFy/dC1ob21lLWF1dG9t/YXRpb24tY29udHJv/bC1zeXN0ZW0taW5u/b3ZhdGlvbi10ZWNo/bm9sb2d5LWludGVy/bmV0LW5ldHdvcmst/Y29uY2VwdC1zbWFy/dC1ob21lLWF1dG9t/YXRpb24tY29udHJv/bC1zeXN0ZW0tOTky/MTE2NzguanBn",
+        githubUrl:"https://github.com/thiran18/Home-Automation-System-Using-IOT-with-ESP32-CAM",
+      },
+        {
+        id: 4,
         title: "Weather Dashboard",
         description: "Interactive weather application with location-based forecasts and beautiful data visualizations.",
         technologies: ["React", "API Integration", "Chart.js", "CSS"],
         imageUrl: "https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800"
       },
-      {
-        id: 4,
-        title: "Customer Behavior Analysis",
-        description: "Performed data cleaning, exploratory data analysis, visualization, and built predictive models to extract actionable insights.",
-        technologies: ["Python", "sql","Power BI"],
-        imageUrl: "https://img.freepik.com/free-photo/business-data-analysis_53876-95296.jpg?semt=ais_hybrid&w=740&q=80",
-        githubUrl: "https://github.com/thiran18/Customer-behavior-analysis-DA"
-      }
+    
     ],/*
   projects: [
   {
@@ -100,7 +102,7 @@ function App() {
   },
   {
     category: "Tools & Platforms",
-    skills: ["GitHub", "Visual Studio Code", "Figma", "MySQL Workbench","Power BI","Jupyter Notebook"]
+    skills: ["Git&GitHub", "Visual Studio Code", "Figma", "MySQL Workbench","Power BI","Jupyter Notebook"]
   },
  /* {
     category: "Domain Expertise",
@@ -116,7 +118,7 @@ function App() {
       email: "thiranvofficial@gmail.com",
       linkedin: "https://www.linkedin.com/in/thiran-v-549a51267/",
       github: "https://github.com/thiran18",
-      twitter: "https://twitter.com/yourhandle"
+
     }
   };
 
