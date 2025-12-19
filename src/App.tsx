@@ -16,8 +16,8 @@ function App() {
       cvUrl: "/FINAL2025-NOV.pdf"
     },
     about: {
-      //bio : "I'm a dedicated developer passionate about creating exceptional digital experiences. I enjoy tackling challenging problems, learning new technologies, and continuously improving my skills. Outside of coding, I love exploring tech trends, contributing to open-source projects, and sharing knowledge with the developer community.",
-      bio: "I am a Biomedical Engineering student with a strong interest in software development, data analysis, and embedded systems. I enjoy converting real-world problems into practical technical solutions using programming, data handling, and system design. I have hands-on experience working on projects involving customer behavior analysis, healthcare monitoring, IoT-based automation.",
+      bio : "I'm a dedicated developer passionate about creating exceptional digital experiences. I enjoy tackling challenging problems, learning new technologies, and continuously improving my skills. Outside of coding, I love exploring tech trends, contributing to open-source projects, and sharing knowledge with the developer community.",
+     // bio: "I am a Biomedical Engineering student with a strong interest in software development, data analysis, and embedded systems. I enjoy converting real-world problems into practical technical solutions using programming, data handling, and system design. I have hands-on experience working on projects involving customer behavior analysis, healthcare monitoring, IoT-based automation.",
       /* imageUrl: "https://images.pexels.com/photos/3785079/pexels-photo-3785079.jpeg?auto=compress&cs=tinysrgb&w=800"*/
     },
     projects: [
