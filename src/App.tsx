@@ -13,7 +13,7 @@ function App() {
       title: "BIO-MEDICAL ENGINEER",
       description:"A passionate engineering student who enjoys solving problems, learning continuously, and building practical solutions with real-world impact.",
       /*"Passionate about creating elegant solutions to complex problems. Specializing in modern web technologies and user-centered design.",*/
-      cvUrl: "/FINAL2025-NOV.pdf"
+      cvUrl: "/ATSA.pdf"
     },
     about: {
       bio : "I'm a dedicated developer passionate about creating exceptional digital experiences. I enjoy tackling challenging problems, learning new technologies, and continuously improving my skills. Outside of coding, I love exploring tech trends, contributing to open-source projects, and sharing knowledge with the developer community.",
